@@ -1,0 +1,30 @@
+{
+  "//9A1I": [
+    {
+      "type": 0,
+      "value": "Get Started"
+    }
+  ],
+  "JUnulj": [
+    {
+      "type": 0,
+      "value": "Delete user "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "XmKr1+": [
+    {
+      "type": 0,
+      "value": "New Password"
+    }
+  ],
+  "explicit-id": [
+    {
+      "type": 0,
+      "value": "Confirm Password"
+    }
+  ]
+}

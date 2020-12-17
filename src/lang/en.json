@@ -1,0 +1,18 @@
+{
+  "//9A1I": {
+    "defaultMessage": "Get Started",
+    "description": "header message"
+  },
+  "JUnulj": {
+    "defaultMessage": "Delete user {name}",
+    "description": "Delete button"
+  },
+  "XmKr1+": {
+    "defaultMessage": "New Password",
+    "description": "placeholder text"
+  },
+  "explicit-id": {
+    "defaultMessage": "Confirm Password",
+    "description": "placeholder text"
+  }
+}

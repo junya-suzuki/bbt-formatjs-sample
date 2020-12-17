@@ -1,0 +1,18 @@
+{
+  "//9A1I": {
+    "defaultMessage": "さぁ、はじめよう",
+    "description": "header message"
+  },
+  "JUnulj": {
+    "defaultMessage": "{name}ユーザの削除",
+    "description": "Delete button"
+  },
+  "XmKr1+": {
+    "defaultMessage": "新しいパスワード",
+    "description": "placeholder text"
+  },
+  "explicit-id": {
+    "defaultMessage": "パスワードの確認",
+    "description": "placeholder text"
+  }
+}
