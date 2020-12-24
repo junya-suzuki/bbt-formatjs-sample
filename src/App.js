@@ -3,12 +3,25 @@ import "./styles.css"
 import { IntlProvider } from "react-intl"
 import Home from "./components/Home"
 
-export default function App(props) {
+function loadLocaleData(locale) {
+  switch (locale) {
+    case 'ja':
+      return import('./compiled-lang/ja.json')
+    default:
+      return import('./compiled-lang/en.json')
+  }
+}
+
+const locale = 'ja'
+
+const messages = loadLocaleData(locale)
+
+export default function App() {
   return (
     <IntlProvider
-      locale={props.locale}
+      locale={locale}
       defaultLocale="en"
-      messages={props.messages}>
+      messages={messages}>
       <Home />
     </IntlProvider>
   )
